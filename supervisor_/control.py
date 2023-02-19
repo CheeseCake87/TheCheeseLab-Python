@@ -28,7 +28,7 @@ footer()
 
 header()
 print("Starting supervisord...")
-supervisord = pexpect.spawn('supervisord -c supervisord.conf -n', cwd=cwd)
+supervisord = pexpect.spawn('supervisord -c supervisord.conf', cwd=cwd)
 print("Is supervisord alive?:", supervisord.isalive())
 footer()
 
