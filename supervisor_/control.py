@@ -1,3 +1,22 @@
+"""
+OS Needed
+    - GNU/Linux
+    - macOS (untested)
+
+
+requirements needed
+
+pip install pexpect
+pip install flask
+pip install supervisor
+
+setup steps needed
+
+1. Create virtual environment
+2. Install requirements
+
+"""
+
 from pathlib import Path
 from time import sleep
 
